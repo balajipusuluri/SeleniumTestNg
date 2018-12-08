@@ -6,8 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-public abstract class BaseTest {
+public  class BaseTest {
 
 	protected static WebDriver d;
 
@@ -22,7 +23,11 @@ public abstract class BaseTest {
 	
 
 	}
-
+	
+	@Test
+	public void test(){
+		
+	}
 	@AfterClass
 	public void close() {
 		d.close();
