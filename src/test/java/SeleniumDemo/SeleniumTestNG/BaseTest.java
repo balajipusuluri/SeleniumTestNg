@@ -14,7 +14,7 @@ public  class BaseTest {
 
 	@BeforeClass
 	public void openBrowser() {
-		System.setProperty("driver.chrome.driver", "D:\\eclipse\\chromedriver");
+		System.setProperty("driver.chrome.driver", "chromedriver");
 		d = new ChromeDriver();   
 		d.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		d.get("https://www.amazon.com");
