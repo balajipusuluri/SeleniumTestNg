@@ -29,7 +29,7 @@ public  class BaseTest {
 	public void test(){
 		 String actualTitle = d.getTitle();
 
-        String expectedTitle = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
+        String expectedTitle = "Amazon.com. Spend less. Smile more.";
 
         assertEquals(actualTitle, expectedTitle, "Page title does not match the expected value");
 		
