@@ -8,7 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import static org.testng.Assert.assertEquals
+import static org.testng.Assert.assertEquals;
 public  class BaseTest {
 
 	protected static WebDriver d;
