@@ -27,7 +27,7 @@ public  class BaseTest {
 	
 	@Test
 	public void test(){
-		 String actualTitle = driver.getTitle();
+		 String actualTitle = d.getTitle();
 
         String expectedTitle = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
 
